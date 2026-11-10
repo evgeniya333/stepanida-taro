@@ -27,3 +27,6 @@ figure{margin:0}.photo-frame{overflow:hidden;position:relative;background:#1b2a2
 
 /* Borderless videos blend softly into the page background. */
 .video-card{border:0;background:transparent;box-shadow:none}.pin-player{border:0;background:transparent}.animated-player:after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to right,var(--bg) 0%,transparent 12%,transparent 88%,var(--bg) 100%),linear-gradient(to bottom,var(--bg) 0%,transparent 10%,transparent 82%,var(--bg) 100%)}.video-caption{padding:18px 8px 20px}.video-topics{border-top:0}.video-caption>a{display:none}.media-toggle{bottom:22px;right:21px}.about-photo{scroll-margin-top:25px}@media(max-width:750px){.animated-player:after{background:linear-gradient(to right,var(--bg),transparent 10%,transparent 90%,var(--bg)),linear-gradient(to bottom,var(--bg),transparent 8%,transparent 85%,var(--bg))}.video-caption{padding:17px 8px 22px}}
+
+/* Introduction after removing the second photograph. */
+.approach-grid{grid-template-columns:1fr;gap:0;max-width:860px}.approach-grid>div{width:100%}.approach-grid .body-copy{max-width:760px}.approach-grid .principles{margin-top:27px}@media(max-width:750px){.approach-grid{gap:0}}
